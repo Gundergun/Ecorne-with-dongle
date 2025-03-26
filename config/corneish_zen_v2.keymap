@@ -13,12 +13,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    chosen {
-        zmk,matrix_transform = &corne_6col_layout;
-    };
-};
-
-/ {
     keymap {
         compatible = "zmk,keymap";
 
