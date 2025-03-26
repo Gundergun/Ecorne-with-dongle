@@ -13,6 +13,12 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    chosen {
+        zmk,matrix_transform = &six_column_transform;
+    };
+};
+
+/ {
     combos {
         compatible = "zmk,combos";
         combo_studio_unlock {
