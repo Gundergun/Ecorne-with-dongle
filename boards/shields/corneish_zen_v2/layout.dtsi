@@ -2,7 +2,7 @@
 #include "position_map.dtsi"
 
 / {
-    corne_xiao_6col_layout: corne_xiao_6col_layout {
+    corne_6col_layout: corne_6col_layout {
         compatible = "zmk,physical-layout";
         display-name = "6 Column";
 
