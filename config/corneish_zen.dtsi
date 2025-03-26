@@ -11,6 +11,13 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "layout.dtsi"
 
+&corne_6col_layout {
+ 
+
+    transform = <&six_column_transform>;
+ 
+
+};
 
 / {
     model = "Corne-ish Zen";
@@ -23,7 +30,7 @@
         zmk,kscan = &kscan0;
         zmk,display = &epd;
         zephyr,console = &cdc_acm_uart;
-        zmk,matrix_transform = &six_column_transform;
+        zmk,physical-layout = &corne_6col_layout;
     };
 
     default_transform: keymap_transform_0 {
