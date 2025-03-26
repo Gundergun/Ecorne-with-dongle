@@ -14,7 +14,7 @@
 
 / {
     chosen {
-        zmk,matrix_transform = &default_transform;
+        zmk,matrix_transform = &corne_6col_layout;
     };
 };
 
